@@ -11,7 +11,7 @@ The API allows clients to:
 ## 🛠Tech Stack
 - Python
 - Flask
-- MYSQL
+- MySQL
 - Postman (for API testing)
 ## 📂Project Structure
 ```
@@ -47,7 +47,7 @@ pip install -r requirements.txt
 ```
 
 ## 🗄️Database Setup
-
+Run the SQL script provided in `schema.sql` to create the database and tables.
 ### Create database
 ```
 CREATE DATABASE student_db;
@@ -145,20 +145,19 @@ Responses:
 ## 📸 Screenshots
 Screenshots of API testing using Postman are available in the ```screenshots/``` folder.
 
-## 🚀 Future Enhancements (Optional)
+## 🚀 Future Enhancements (Not Implemented)
 - Pagination
 - Authentication (Admin login)
 - Logging
 - Unit testing
 
 ## 🧠 Learning Outcomes
-- This project demonstrates:
+This project demonstrates:
 - Backend API design
 - Flask Blueprints
 - Database CRUD using MySQL
 - Error handling and validation
 - Professional project structure
 
-📌 Author
-
+## 📌 Author
 Ajay Kumar
